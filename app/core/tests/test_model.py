@@ -48,6 +48,5 @@ class ModelTest(TestCase):
             email=email,
             password=password
         )
-
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
